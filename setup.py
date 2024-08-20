@@ -81,8 +81,7 @@ setup(
     keywords="api graphql protocol rest relay graphene",
     packages=find_packages(exclude=["examples*"]),
     install_requires=[
-        "graphql-core>=3.1,<3.3",
-        "graphql-relay>=3.1,<3.3",
+        "graphql-core>=3.1,<3.4",
     ],
     tests_require=tests_require,
     extras_require={"test": tests_require, "dev": dev_requires},
